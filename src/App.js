@@ -1,11 +1,8 @@
 import React from 'react'
 import "./App.css"
-import background from "./assets/5.jpg"
+import TechList from './components/TechList'
 export default function App() {
     return (
-        <h1>
-            Hello World!
-        </h1>,
-        <img src={background}></img>
+        <TechList />
     )
 }
